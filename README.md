@@ -7,18 +7,23 @@ The Game Explanation:
 
 It is a hangman game
 
-1- The game is going to generate a random word and it is going print something like --> I am thinking of a word 9 letters long!
-2- You will have 3 warnings and 6 guesses at the beginning of the game.
-3- Available letters will be written every round. 
-4- If you try to make a guess of a same letter twice you will lose one warning right so it will be 2 if it was 3 for example.
-5- If you have 0 warnings left and you guess of a same letter again, you will lose from your guess right.
-6- If you find a letter the letter you find will be displayed. Example: the secret word is apple --> _ _ _ _ _ --> If you make a guess of the letter 'p' --> _ p p _ _
+1- The game is going to generate a random word and it is going print something like --> I am thinking of a word 9 letters long! 
+
+2- You will have 3 warnings and 6 guesses at the beginning of the game. 
+
+3- Available letters will be written every round.
+
+4- If you try to guess the same letter twice you will lose one warning right so it will be 2 if it was 3 for example. 
+
+5- If you have 0 warnings left and you guess the same letter again, you will lose from your guess right. 
+
+6- If you find a letter the letter you find will be displayed. Example: the secret word is apple --> _ _ _ _ _ --> If you guess the letter 'p' --> _ p p _ _
 
 Bonus: You can play the game in two versions --> With hints or without hints. You can open the file named Hangman_With_Hints to play with hints, open the file named Hangman_Without_Hints to play without hints.
 
 If you play the game with hints it is going to print out all the possible words when you find a letter.
 
-Here is a Game Example Without Hints:
+HERE IS A GAME EXAMPLE WITHOUT HINTS:
 
 Loading word list from file...
    55900 words loaded.
